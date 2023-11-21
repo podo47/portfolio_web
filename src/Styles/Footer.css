@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(220, 222, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  .socialmedia svg {
+    margin-top: 5px;
+    margin-bottom: 5%;
+    margin-right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    color: black;
+  }
+  .socialmedia .git svg {
+    font-size: 44px;
+    margin-bottom: 15px;
+  }
+  .ig :hover{
+    color: rgba(146, 27, 138, 0.791);
+  }
+  .fb :hover {
+    color: rgb(66, 103, 178);
+  }
+  .git :hover {
+    color: rgb(78, 80, 82);
+  }
+  .lk :hover {
+    color: rgb(10, 102, 194);
+  }
+  
+  .copyright {
+    color: rgb(123, 117, 117);
+    font-size: 18px;
+  }

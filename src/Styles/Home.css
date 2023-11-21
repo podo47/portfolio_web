@@ -1,0 +1,131 @@
+.home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+.header {
+    flex: none;
+    width: 40%;
+    margin-left: 10%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.home img {
+    display: block;
+    margin-left: 10%;
+    height: 75%;
+    width: 25%;
+    border-radius: 15px 50px; 
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center center
+}
+
+.header h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    height: 60px;
+    font-weight: bolder;
+    color: black;
+}
+
+.header p {
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(48, 23, 23);
+}
+.header button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #121619;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 9%;
+}
+  
+.header button:hover {
+    background-color: #2a4f61;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactIcon {
+    flex: none;
+    margin-right: 10px;
+}
+.contactWord{
+    flex: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .home {
+        justify-content: left;
+        align-items: center;
+        display: flex;
+    }
+
+    .header {
+        border-radius: 25px;
+        padding: 7%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        background-color: #121619;
+        color: white;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        height: 30px;
+        color: white;
+    }
+
+    .header p {
+        font-size: 27px;
+        color: white;
+    }
+    .header hr {
+        display: none;
+    }
+    .home img {
+        display: none;
+    }
+    .header button {
+        background-color: white;
+        color: #121619;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+        font-weight: bolder;
+    }
+    .header button:hover {
+        background-color: #369bd2;
+        color: #121619;
+    }
+}
